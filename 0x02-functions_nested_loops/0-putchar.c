@@ -1,20 +1,26 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * main - Prints school as a message.
+ * main - prints _putchar
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
-
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
-	}
-	_putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	-putchar('u');
+	-putchar('t');
+	-putchar('c');
+	-putchar('h');
+	-putchar('a');
+	-putchar('r');
+	-putchar('\n');
 	return (0);
 }
+
+
+
+
+
