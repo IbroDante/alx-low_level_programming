@@ -1,17 +1,20 @@
 #include "school.h"
 
 /**
- * checks if parameter is an uppercase character.
- * input character.
+ * main - Prints school as a message.
+ *
+ * Return: Always 0 (Success)
  */
-int _isupper(int c)
+int main(void)
 {
-	if (c >= 65 && c <= 90)
+	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+	int count, sz;
+
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count++)
 	{
-		return (1);
+		_putchar(str[count]);
 	}
-	else
-	{
-		return (0);
-	}
+	_putchar('\n');
+	return (0);
 }
