@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "putchar.h"
 
 /**
  * main - Prints school as a message.
