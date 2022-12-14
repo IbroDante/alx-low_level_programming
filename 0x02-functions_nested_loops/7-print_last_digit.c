@@ -1,18 +1,26 @@
 #include "main.h"
 
 /**
- * print_last_digit - prints last digit
- * @n: number
- * Return: val last digit
+ * print_last_digit - Prints the last digit
+ * of a number.
+ *
+ * @n: input number as an integer.
+ *
+ * Return: last digit.
  */
 int print_last_digit(int n)
 {
-	int pld = n % 10;
+	int l;
 
-	if (pld < 0)
-		pld *= +1;
-
-	_putchar(pld + '0');
-
-	return (0);
+	l = n % 10;
+	if (l < 0)
+	{
+		_putchar(-l + 48);
+		return (-l);
+	}
+	else
+	{
+		_putchar(l + 48);
+		return (l);
+	}
 }
